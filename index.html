@@ -1,0 +1,128 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Mallah - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="tsparticles"></div>
+    <div class="container">
+      <header class="profile-header">
+        <img src="Image.png" alt="Manish Mallah" class="profile-img">
+        <div class="profile-text">
+          <h1>Hi There,</h1>
+          <h1>I'm Manish Mallah</h1>
+          <p id="dynamic-title-container">
+            I am Into <span id="dynamic-role" class="dynamic-role-text"></span>
+          </p>
+        </div>
+      </header>
+
+      <section class="about-me">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <p>
+            Hi, I’m Manish Mallah, with experience in data analytics, automation, and web development.<br>
+            I’ve worked in the finance industry, building data-driven and tech-enabled solutions.<br>
+            I enjoy machine learning, coding, and solving real-world problems with clean, efficient code.<br>
+            I’m passionate about creating tools that boost productivity and simplify processes.<br>
+            Always curious, always learning something new.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Experience:</span>
+              <span class="detail-value">1+ Years</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Location:</span>
+              <span class="detail-value">Mumbai, India</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Education:</span>
+              <span class="detail-value">B.Sc. in Data Science</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="work-experience">
+          <h2>Work Experience</h2>
+          <div class="experience-list">
+              <div class="experience-item">
+                  <div class="experience-header">
+                      <h3>Ambit Wealth Pvt Ltd</h3>
+                      <span class="experience-dates">Oct 2024 - Present</span>
+                  </div>
+                  <span class="experience-role">Data Analyst</span>
+                  <ul>
+                      <li>Reduced manual intervention by over 55% through the implementation of automated reporting systems using Python, SQL, and Power BI, enabling faster and more accurate business insights.</li>
+                      <li>Built a Python script to automate data ingestion, cleaning, and structuring of AUM, Revenue, and Transaction files, reducing manual effort by 80% and increasing efficiency .</li>
+                      <li>Developed Analytics Website Platform using HTML, CSS, and JavaScript to integrate all Power BI reports into a single platform, enhancing CEO's insights access and improving decision-making efficiency by 35%.</li>
+                      <li>Managed the company's Profit & Loss data and created a secure dashboard in Power BI, enabling clear financial visibility for leadership and ensuring data confidentiality.</li>
+                  </ul>
+              </div>
+
+              <div class="experience-item">
+                  <div class="experience-header">
+                      <h3>iNeuron.ai</h3>
+                      <span class="experience-dates">Apr 2024 - Jul 2024</span>
+                  </div>
+                  <span class="experience-role">Data Science Intern</span>
+                  <ul>
+                      <li>Conducted an Amazon sales analysis project using Power BI. Meticulously cleaned and transformed data, ensuring accuracy and consistency by creating interactive dashboards.</li>
+                      <li>Identified key sales trends, top-performing products, and customer segments using ML techniques. Insights and recommendations contributed to strategic business decisions.</li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+
+      <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+          </div>
+        <button id="viewMoreBtn" class="view-more-btn">View More Projects</button>
+      </section>
+
+      <section class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+          </div>
+      </section>
+
+      <section class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/manish-mallah-3a15a7218/" target="_blank" class="contact-link">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/manishmallah2" target="_blank" class="contact-link">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="mailto:manishmallah402@gmail.com" class="contact-link">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+        </div>
+      </section>
+    </div> <div id="projectModal" class="modal">
+      <div class="modal-content">
+        <span class="close" title="Close">&times;</span>
+        <img id="modalImage" src="" alt="Project Image" class="modal-img">
+        <div class="modal-text">
+          <h2 id="modalTitle"></h2>
+          <p id="modalDescription"></p>
+          <div id="modalTags" class="tags"></div>
+          <a id="projectLink" href="#" target="_blank" class="project-link">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
